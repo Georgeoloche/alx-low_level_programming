@@ -1,3 +1,4 @@
+
 /*
  * File: 0-positive_or_negative.c 
  *
@@ -5,7 +6,7 @@
 
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 
 /**
  * main - Print a random number and states weather
@@ -28,4 +29,5 @@
 
  	return (0);
 }
+
 
