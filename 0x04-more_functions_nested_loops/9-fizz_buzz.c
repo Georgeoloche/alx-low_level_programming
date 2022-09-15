@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 /**
-*main - program that prints either number
-*or fizz or buzz or fizzBuzz
-*
-*
-*Return: returns 0
-*/
+ * main - Fizz Buzz code
+ *
+ * Return: void
+ */
 
 int main(void)
 {
 	int i = 1;
-while (i <= 100)
+
+	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
