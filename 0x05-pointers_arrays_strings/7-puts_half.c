@@ -1,6 +1,4 @@
-7-put_half.c
 #include "main.h"
-
 /**
  * puts_half - Print half a str
  * @str: a printer
