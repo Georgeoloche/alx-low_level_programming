@@ -5,18 +5,29 @@
  * puts2 - prints every other character
  * @str: string
  *
- * Return: nothing
+ * Return: void
  */
 
-void puts2(char *str)
+
+void more_numbers(void)
 {
+	char n, c;
 	int i = 0;
 
-	while (*(str + i) != '\0')
+	while (i < 10)
 	{
-		if (i % 2 == 0)
-			putchar(*(str + i));
+		for (n = 0; n <= 14; n++)
+		{
+			c = n;
+			if (n > 9)
+			{
+				_putchar('1');
+				c = n % 10;
+			}
+			_putchar('0' + c);
+		}
+
+		_putchar('\n');
 		i++;
 	}
-	putchar(10);
 }
